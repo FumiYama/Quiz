@@ -24,14 +24,6 @@ class QuizViewController: UIViewController {
     //クイズを格納する配列
     var quizArray = [NSMutableArray]()
     
-    // それぞれ一度見たものをonceShowとしてBool型をfalseで定義
-    var onceShow0: Bool = false
-    var onceShow1: Bool = false
-    var onceShow2: Bool = false
-    var onceShow3: Bool = false
-    var onceShow4: Bool = false
-    var onceShow5: Bool = false
-    
     //クイズを表示するTextView
     @IBOutlet var quizTextView: UITextView!
     
@@ -62,20 +54,6 @@ class QuizViewController: UIViewController {
         //クイズの問題文をシャッフルしてTextViewにセット
         random = Int(arc4random_uniform(UInt32(quizArray.count)))
         quizTextView.text = quizArray[random][0] as! String
-        
-        if quizArray[random] == quizArray[0]{
-            onceShow0 = true
-        } else if quizArray[random] == quizArray[1]{
-            onceShow1 = true
-        } else if quizArray[random] == quizArray[2]{
-            onceShow2 = true
-        } else if quizArray[random] == quizArray[3]{
-            onceShow3 = true
-        } else if quizArray[random] == quizArray[4]{
-            onceShow4 = true
-        } else if quizArray[random] == quizArray[5]{
-            onceShow5 = true
-        }
         
         //選択肢のボタンにそれぞれ選択肢のテキストをセット
         for var i = 0; i < choiceButtons.count; i++ {
