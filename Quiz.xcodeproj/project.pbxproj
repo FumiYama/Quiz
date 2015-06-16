@@ -10,7 +10,6 @@
 		321AF4D71B2B2BDA00146114 /* ankara.png in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4D31B2B2BDA00146114 /* ankara.png */; };
 		321AF4D81B2B2BDA00146114 /* bern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4D41B2B2BDA00146114 /* bern.jpg */; };
 		321AF4D91B2B2BDA00146114 /* can.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4D51B2B2BDA00146114 /* can.jpg */; };
-		321AF4DA1B2B2BDA00146114 /* disney.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4D61B2B2BDA00146114 /* disney.jpeg */; };
 		321AF4DF1B2B2BF000146114 /* ottawa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4DB1B2B2BF000146114 /* ottawa.jpg */; };
 		321AF4E01B2B2BF000146114 /* rio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4DC1B2B2BF000146114 /* rio.jpg */; };
 		321AF4E11B2B2BF000146114 /* tokyo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 321AF4DD1B2B2BF000146114 /* tokyo.jpg */; };
@@ -44,7 +43,6 @@
 		321AF4D31B2B2BDA00146114 /* ankara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ankara.png; sourceTree = "<group>"; };
 		321AF4D41B2B2BDA00146114 /* bern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bern.jpg; sourceTree = "<group>"; };
 		321AF4D51B2B2BDA00146114 /* can.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = can.jpg; sourceTree = "<group>"; };
-		321AF4D61B2B2BDA00146114 /* disney.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disney.jpeg; sourceTree = "<group>"; };
 		321AF4DB1B2B2BF000146114 /* ottawa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ottawa.jpg; sourceTree = "<group>"; };
 		321AF4DC1B2B2BF000146114 /* rio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rio.jpg; sourceTree = "<group>"; };
 		321AF4DD1B2B2BF000146114 /* tokyo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tokyo.jpg; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				321AF4D31B2B2BDA00146114 /* ankara.png */,
 				321AF4D41B2B2BDA00146114 /* bern.jpg */,
 				321AF4D51B2B2BDA00146114 /* can.jpg */,
-				321AF4D61B2B2BDA00146114 /* disney.jpeg */,
 				C7343EA01A89986900D857EA /* AppDelegate.swift */,
 				C7343EC01A89997C00D857EA /* QuizViewController.swift */,
 				C7FE4DDF1A8A17B9004C530A /* ResultViewController.swift */,
@@ -258,7 +255,6 @@
 				321AF4E01B2B2BF000146114 /* rio.jpg in Resources */,
 				AF223C451A8C6B9100E3B3B9 /* Default-667h@2x.png in Resources */,
 				AF223C461A8C6B9100E3B3B9 /* Default-736h@3x.png in Resources */,
-				321AF4DA1B2B2BDA00146114 /* disney.jpeg in Resources */,
 				C7A670591A9B436300F460E3 /* false.png in Resources */,
 				321AF4E11B2B2BF000146114 /* tokyo.jpg in Resources */,
 				C7A670601A9B436D00F460E3 /* true.png in Resources */,
